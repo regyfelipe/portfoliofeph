@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --primary-color: #994D1C;
-    --secondary-color: #000000;
-    --tertiary-color: #F6F6F6;
-    --hover-color: #272727;
+    --primary-color: #4F200D;
+    --secondary-color: #E3F6FF;
+    --tertiary-color: #E4F1FF;
+    --hover-color: #4F200D;
 }
 
 * {
@@ -20,6 +20,7 @@
 .cabecalho__menu {
     display: flex;
     gap: 80px;
+    text-transform: uppercase;
 }
 
 
@@ -103,10 +104,9 @@ body {
 
 .apresentacao__links__navegacao:hover {
     background-color: var(--hover-color);
-    padding: 3%;
 }
 
-.apresentacao_imagem{
+.apresentacao_imagem {
     width: 50%;
 }
 
@@ -120,6 +120,17 @@ body {
 }
 
 @media (max-width:1200px) {
+    :root {
+        --primary-color: #5CD2E6;
+        --secondary-color: #3E001F;
+        --tertiary-color: #2B2A4C;
+        --hover-color: #4F200D;
+    }
+
+    body {
+        background: white;
+    }
+
     .cabecalho {
         padding: 10%;
     }
@@ -127,14 +138,20 @@ body {
     .cabecalho__menu {
         justify-content: center;
     }
-    
+
     .apresentacao {
         flex-direction: column-reverse;
         padding: 8%;
     }
 
     .apresentacao__conteudo {
-        width: auto;
+        width: 100%;
     }
-    
+
+    .apresentacao_imagem {
+        width: 100%;
+
+    }
+
+
 }
