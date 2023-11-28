@@ -124,7 +124,7 @@ body {
         --primary-color: #5CD2E6;
         --secondary-color: #3E001F;
         --tertiary-color: #2B2A4C;
-        --hover-color: #4F200D;
+        --hover-color: rgba(79, 32, 13, 0.171);
     }
 
     body {
